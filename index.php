@@ -37,6 +37,7 @@ $(document).ready(function(){
 </script>
 </head>
 <body>
+<?php echo "Welcome";?>
 <form enctype="multipart/form-data" action="upload.php" method="post">
     <input name="file[]" type="file" />
     <button class="add_more">Add More Files</button>
